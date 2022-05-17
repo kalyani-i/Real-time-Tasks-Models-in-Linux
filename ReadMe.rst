@@ -3,7 +3,7 @@ Assignment 1
 Subject - CSE 438
 Assignment 1
 Author - Kalyani Niwrutti Ingole
-ASU Id - 1223133028
+
 ---------------
 
 ReadMe
@@ -20,6 +20,7 @@ We have sceduled Real-time Tasks Models in Linux for aperiodic and Periodic task
 
 ###
 Build
+
 We have made a make file that includes the compiler and other commands that generate any warning needed
 Import the header file provided in the main assignment file for compilation
 For keyboard event to get the input number, follow the following instructions
@@ -32,8 +33,10 @@ To check for errors and compilation of the code use 'make' command
 
 ###
 Execution
+
 To run the file use 'sudo ./Homework'
-Install kernael shark on virtual machine use following instructions
+
+Install kernel shark on virtual machine use following instructions
 	sudo apt-get update –y
 	sudo apt-get install –y trace-cmd kernelshark
 To create the .dat file for tracing 
